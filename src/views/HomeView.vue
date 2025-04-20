@@ -7,7 +7,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 
 <template>
   <div
-    class="bg-[#101010] text-white mx-auto max-w-screen-xl px-6 md:px-12 lg:px-16 min-h-svh p-px"
+    class="bg-[#101010] text-white mx-auto max-w-screen-xl px-6 md:px-12 lg:px-16 min-h-svh p-px body"
   >
     <div class="lg:flex lg:justify-between lg:gap-4">
       <HeaderSection />
@@ -24,7 +24,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-main {
+.body {
   font-family: 'Inter', sans-serif;
 }
 </style>
