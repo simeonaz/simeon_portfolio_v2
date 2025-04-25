@@ -1,21 +1,32 @@
 <script setup>
 import iryka from '@/assets/img/iryka.png'
 import panneauMobile from '@/assets/img/panneaumobile.png'
+import aep from '@/assets/img/aep.png'
 
 const projectList = [
   {
     name: 'Iryka',
     image: iryka,
     url: 'https://app.iryka.com/',
+    company: 'TOK Services',
     description:
       'Iryka is a website creation platform currently in development, built on a modular template gallery. Each user can customize and deploy their site in just a few clicks without any technical knowledge. I designed and implemented the REST APIs for managing templates, users, and content. I also handled the majority of the front‑end development to ensure a smooth, responsive experience.',
   },
   {
     name: 'Panneau Mobile client portal',
     image: panneauMobile,
-    url: 'https://pige.panneaumobile.co/#/',
+    url: 'https://pige.panneaumobile.co/',
+    company: 'TOK Services',
     description:
       'The Panneau Mobile client portal is a web platform that enables each client to track campaigns and various activities launched by the agency in real time. The administrator inputs and updates all the information clients see on their personalized dashboard. Clients have a consolidated view of their performance metrics and receive alerts for key actions. The responsive interface ensures seamless access from both desktop and mobile.',
+  },
+  {
+    name: 'AEP Parakou',
+    image: aep,
+    url: 'https://aep.parakou.bj',
+    company: 'EUPHORBIA GROUP',
+    description:
+      'I contributed to the development of a management platform for drinking water supply facilities in the city of Parakou, Benin. The platform enables technical and administrative teams to monitor infrastructure in real time (water towers, boreholes, public fountains, etc.), centralize maintenance data, and support better decision-making. I worked on the backend development, the admin interface, and the integration of interactive maps for geospatial visualization of the facilities.',
   },
 ]
 </script>
@@ -57,7 +68,8 @@ const projectList = [
                   ><span
                     >{{ project.name }} ·
                     <span class="inline-block"
-                      >Web App<svg
+                      >{{ project.company
+                      }}<svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
                         fill="currentColor"

@@ -39,6 +39,11 @@ const socialMediaLinks = [
                   ></path></svg
               >`,
   },
+  {
+    name: 'X',
+    link: 'https://www.x.com/Shim7onEm',
+    svg: `<svg class="w-6 h-6 bg-gray-500" style="mask-image: url(&quot;https://mintlify.b-cdn.net/v6.6.0/brands/x-twitter.svg&quot;); mask-repeat: no-repeat; mask-position: center center;"></svg>`,
+  },
 ]
 
 function smoothScroll(event, selector) {

@@ -7,7 +7,7 @@ const experiences = [
     company: 'TOK Services',
     description:
       'As a Full Stack Developer and Team Lead, I have designed, developed, and maintained critical frontend components, ensuring product-wide consistency and high performance. I have also led a cross-functional team of front‑end and back‑end engineers, working closely with designers and product managers to define and advocate for web accessibility best practices (WCAG).',
-    technologies: ['JavaScript', 'TypeScript', 'NestJS', 'VueJS', 'Firebase'],
+    technologies: ['JavaScript', 'NodeJS', 'TypeScript', 'NestJS', 'VueJS', 'SQL', 'NoSql'],
     link: 'https://tok-services.web.app/',
   },
   {
