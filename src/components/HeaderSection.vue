@@ -1,12 +1,14 @@
 <script setup>
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 
 const navLinks = [
   { name: 'About', path: '#about' },
   { name: 'Experience', path: '#experience' },
   { name: 'Projects', path: '#projects' },
-  // { name: 'Contact', path: '#contact' },
+  { name: 'Contact', path: '#contact' },
 ]
+
+const activeLink = ref('#about')
 
 const socialMediaLinks = [
   {
@@ -48,6 +50,7 @@ const socialMediaLinks = [
 
 function smoothScroll(event, selector) {
   event.preventDefault()
+  activeLink.value = selector
   const target = document.querySelector(selector)
   if (target) {
     target.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -77,8 +80,6 @@ onMounted(() => {
     </h2>
     <p class="mt-4 max-w-xs leading-normal" aria-label="Description">
       I architect and build end-to-end digital solutions.
-      <!-- , crafting both elegant user interfaces
-          and robust backend systems that work seamlessly together -->
     </p>
 
     <nav aria-label="Main navigation">
@@ -91,9 +92,11 @@ onMounted(() => {
           >
             <span
               class="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-12 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"
+              :class="{ 'w-16 bg-slate-200': activeLink === link.path }"
             ></span>
             <span
               class="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200"
+              :class="{ 'text-slate-200': activeLink === link.path }"
               >{{ link.name }}</span
             >
           </a>

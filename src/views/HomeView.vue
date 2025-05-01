@@ -1,5 +1,6 @@
 <script setup>
 import AboutSection from '@/components/AboutSection.vue'
+import ContactView from '@/components/ContactView.vue'
 import ExperienceSection from '@/components/ExperienceSection.vue'
 import HeaderSection from '@/components/HeaderSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
@@ -16,6 +17,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
         <AboutSection />
         <ExperienceSection />
         <ProjectsSection />
+        <ContactView />
       </main>
     </div>
   </div>

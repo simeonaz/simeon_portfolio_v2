@@ -26,7 +26,7 @@ const projectList = [
     url: 'https://aep.parakou.bj',
     company: 'EUPHORBIA GROUP',
     description:
-      'I contributed to the development of a management platform for drinking water supply facilities in the city of Parakou, Benin. The platform enables technical and administrative teams to monitor infrastructure in real time (water towers, boreholes, public fountains, etc.), centralize maintenance data, and support better decision-making. I worked on the backend development, the admin interface, and the integration of interactive maps for geospatial visualization of the facilities.',
+      'I contributed to the development of a management platform for drinking water supply facilities in the city of Parakou, Benin. The platform enables technical and administrative teams to monitor infrastructure in real time.',
   },
 ]
 </script>
@@ -102,38 +102,11 @@ const projectList = [
         </li>
       </ul>
 
-      <div class="mt-12 py-4 flex items-start">
+      <!-- <div class="mt-12 py-4 flex items-start">
         <p class="text-sm leading-normal text-[#909090] w-full lg:w-1/2">
           There’s still much more to explore; please allow me a little time so that I can show you
           more.
         </p>
-      </div>
-      <!-- <div class="mt-12">
-        <a
-          class="inline-flex items-center leading-tight font-semibold text-slate-200 group"
-          aria-label="View Full Project Archive"
-          href="/archive"
-          ><span
-            ><span
-              class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
-              >View Full Project </span
-            ><span class="whitespace-nowrap"
-              ><span
-                class="border-b border-transparent pb-px transition group-hover:border-teal-300 motion-reduce:transition-none"
-                >Archive</span
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                class="ml-1 inline-block h-4 w-4 shrink-0 -translate-y-px transition-transform group-hover:translate-x-2 group-focus-visible:translate-x-2 motion-reduce:transition-none"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                  clip-rule="evenodd"
-                ></path></svg></span></span
-        ></a>
       </div> -->
     </div>
   </section>

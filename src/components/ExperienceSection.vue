@@ -1,5 +1,4 @@
 <script setup>
-// Headed the initiative to build a turnkey platform enabling users to launch a fully functional website and online store in just a few clicks, featuring a modular, template-driven architecture.
 const experiences = [
   {
     year: 'June 2024 — Present',
@@ -7,7 +6,16 @@ const experiences = [
     company: 'TOK Services',
     description:
       'As a Full Stack Developer and Team Lead, I have designed, developed, and maintained critical frontend components, ensuring product-wide consistency and high performance. I have also led a cross-functional team of front‑end and back‑end engineers, working closely with designers and product managers to define and advocate for web accessibility best practices (WCAG).',
-    technologies: ['JavaScript', 'NodeJS', 'TypeScript', 'NestJS', 'VueJS', 'SQL', 'NoSql'],
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'Node.js',
+      'Vue.js',
+      'Nest.js',
+      'SQL',
+      'NoSql',
+      'Git',
+    ],
     link: 'https://tok-services.web.app/',
   },
   {
@@ -16,7 +24,18 @@ const experiences = [
     company: 'Euphorbia Group',
     description:
       'As an intern, I developed internal tools to optimize business workflows and contributed to building SaaS solutions for various clients, collaborating with the technical team on architecture, testing, and deployment.',
-    technologies: ['JavaScript', 'TypeScript', 'NestJS', 'VueJS'],
+    technologies: [
+      'JavaScript',
+      'TypeScript',
+      'Node.js',
+      'Vue.js',
+      'Nest.js',
+      'PHP',
+      'CodeIgniter',
+      'SQL',
+      'NoSql',
+      'Git',
+    ],
     link: 'https://euphorbiagroup.com/',
   },
 ]
