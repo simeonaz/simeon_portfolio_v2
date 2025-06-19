@@ -1,7 +1,7 @@
 <script setup>
 const experiences = [
   {
-    year: 'June 2024 — Present',
+    year: 'June 2024 — June 2025',
     title: 'Full Stack Engineer, Team Lead',
     company: 'TOK Services',
     description:

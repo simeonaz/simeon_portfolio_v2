@@ -18,7 +18,7 @@
       </p>
 
       <p>
-        Currently, I work as a Full Stack Developer at
+        Most recently, I worked as a Full Stack Developer at
         <a
           class="font-bold text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
           href="https://tok-services.web.app/"
@@ -26,7 +26,7 @@
           rel="noreferrer noopener"
           aria-label="TOK Services (opens in a new tab)"
           >TOK Services</a
-        >, where I contribute to innovative projects. I work across the entire technology stack,
+        >, where I contributed to innovative projects. I worked across the entire technology stack,
         designing robust architectures while developing responsive and accessible user interfaces. I
         also serve as a <span class="font-bold">team lead</span>, directing both the development and
         design teams.
