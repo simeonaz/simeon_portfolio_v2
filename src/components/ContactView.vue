@@ -73,7 +73,7 @@ const sendMail = () => {
             placeholder="Your name"
             v-model="name"
             required
-            class="border border-[#2F4858] rounded-2xl px-10 lg:px-8 py-4 focus:outline-none focus:placeholder:text-[#000000] placeholder:text-[14px] text-[14px]"
+            class="border border-[#2F4858] rounded-2xl px-10 lg:px-8 py-4 focus:outline-none placeholder:text-[14px] text-[14px]"
           />
           <input
             id="email"
@@ -81,11 +81,11 @@ const sendMail = () => {
             v-model="email"
             required
             placeholder="Your email"
-            class="border border-[#2F4858] rounded-2xl px-10 lg:px-4 py-4 focus:outline-none focus:placeholder:text-[#000000] placeholder:text-[14px] text-[14px]"
+            class="border border-[#2F4858] rounded-2xl px-10 lg:px-4 py-4 focus:outline-none placeholder:text-[14px] text-[14px]"
           />
         </div>
         <textarea
-          class="h-40 border border-[#2F4858] rounded-2xl px-10 lg:px-4 py-4 focus:outline-none focus:placeholder:text-[#000000] placeholder:text-[14px] text-[14px] resize-none"
+          class="h-40 border border-[#2F4858] rounded-2xl px-10 lg:px-4 py-4 focus:outline-none placeholder:text-[14px] text-[14px] resize-none"
           required
           placeholder="Type your message"
           v-model="message"

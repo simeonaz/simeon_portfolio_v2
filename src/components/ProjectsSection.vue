@@ -2,8 +2,17 @@
 import iryka from '@/assets/img/iryka.png'
 import panneauMobile from '@/assets/img/panneaumobile.png'
 import aep from '@/assets/img/aep.png'
+import neith from '@/assets/img/neith.png'
 
 const projectList = [
+  {
+    name: 'Neith',
+    image: neith,
+    url: 'https://neith-security.vercel.app/',
+    company: 'Personal Project',
+    description:
+      'Neith is an MVP I started in June 2025. It’s a smart, lightweight platform designed to check the trustworthiness of URLs before users interact with them. Using Google’s Safe Browsing API, it helps detect potentially harmful links such as phishing or malware.',
+  },
   {
     name: 'Iryka',
     image: iryka,
