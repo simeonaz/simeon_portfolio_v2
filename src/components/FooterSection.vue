@@ -25,7 +25,7 @@
         class="font-medium text-slate-400 hover:text-teal-300 focus-visible:text-teal-300"
         target="_blank"
         rel="noreferrer noopener"
-        aria-label="Next.js (opens in a new tab)"
+        aria-label="Vue.js (opens in a new tab)"
       >
         Vue.js</a
       >
