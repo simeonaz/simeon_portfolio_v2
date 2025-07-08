@@ -8,8 +8,19 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
+      meta: {
+        title: 'Siméon Azogbonon - Full Stack Developer',
+      },
     },
   ],
+})
+
+router.afterEach((to) => {
+  if (to.meta && to.meta.title) {
+    document.title = to.meta.title
+  } else {
+    document.title = 'Siméon Azogbonon - Full Stack Developer'
+  }
 })
 
 export default router
