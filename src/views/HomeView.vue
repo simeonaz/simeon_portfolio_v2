@@ -9,7 +9,7 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 
 <template>
   <div
-    class="bg-[#101010] text-white mx-auto max-w-screen-xl px-6 md:px-12 lg:px-16 min-h-svh p-px body"
+    class="bg-gradient-to-b from-gray-900 to-gray-950 text-white mx-auto max-w-screen-xl px-6 md:px-12 lg:px-16 min-h-svh p-px body"
   >
     <div class="lg:flex lg:justify-between lg:gap-4">
       <HeaderSection />
